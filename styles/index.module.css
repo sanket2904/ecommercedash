@@ -1,0 +1,29 @@
+.container {
+    background-color: #111111;
+}
+.general div {
+    background-color: #d1fffc;
+    color: #111111;
+}
+.analytics {
+    background-color: rgb(33, 43, 54);
+}
+.profile div {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+
+@keyframes sidebar {
+    from {
+        left:-18rem;
+    }
+    to {
+        left: 0;
+    }
+}
+.transition {
+    
+    animation: sidebar 300ms ease 100ms;
+    animation-fill-mode: forwards;
+}
