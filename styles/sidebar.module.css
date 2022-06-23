@@ -1,0 +1,21 @@
+@keyframes sidebar {
+    from {
+        left: -18rem;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+.transition {
+
+    animation: sidebar 300ms ease 100ms;
+    animation-fill-mode: forwards;
+}
+.analytics {
+    background-color: rgb(33, 43, 54);
+}
+.sidebarLap {
+    min-width: 281px;
+}
